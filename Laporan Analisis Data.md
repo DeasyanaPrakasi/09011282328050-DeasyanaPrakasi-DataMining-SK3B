@@ -2,7 +2,7 @@
 ## info Dataset
 
 - Nama Dataset : Lefe Expectancy Data
-- 
+  
 - Link : kaggle datasets download -d kumarajarshi/life-expectancy-who
 ### penjelasan nama data
 1. Country               : Nama negara.
@@ -143,6 +143,11 @@ Rata-rata tahun pendidikan adalah 11.99 tahun dengan median yang sedikit lebih t
 
 **5. Thinness 5-9 years dengan Life expectancy (-0.47)**
    - Sama seperti di atas, ini menunjukkan bahwa kekurusan pada usia dini berkaitan dengan harapan hidup yang lebih rendah.
+
+## Distribusi yang Tidak Normal:
+   -	Infant Deaths dan Under-five Deaths menunjukkan distribusi yang tidak normal dengan angka rata-rata yang jauh lebih tinggi dibandingkan median, menunjukkan adanya kasus ekstrem yang mempengaruhi distribusi keseluruhan. Ini menandakan bahwa data tidak terdistribusi secara simetris dan mungkin mengikuti distribusi yang condong atau skewed.
+   - HIV/AIDS juga menunjukkan distribusi yang tidak normal, dengan nilai mode sangat rendah, sementara rata-rata lebih tinggi, menunjukkan adanya nilai ekstrem yang mempengaruhi distribusi.
+
 
 
 
