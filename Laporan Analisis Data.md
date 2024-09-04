@@ -1,5 +1,10 @@
 # Laporan Hasil Eksplorasi dan Analisis Data
+## info Dataset
 
+- Nama Dataset : Lefe Expectancy Data
+- 
+- Link : kaggle datasets download -d kumarajarshi/life-expectancy-who
+### penjelasan nama data
 1. Country               : Nama negara.
 2. Year                  : Tahun pengambilan.
 3. Status                : status ekonomi atau kesehatan negara.
@@ -106,3 +111,38 @@ Rata-rata komposisi pendapatan adalah 0.63 dengan median sedikit lebih tinggi, m
 • Schooling
 
 Rata-rata tahun pendidikan adalah 11.99 tahun dengan median yang sedikit lebih tinggi, menunjukkan bahwa banyak data memiliki pendidikan di atas rata-rata. Mode menunjukkan nilai pendidikan yang umum dalam data. Variasi yang relatif kecil menunjukkan homogenitas yang lebih besar dalam tingkat pendidikan.
+
+### Korelasi Positif Tinggi
+**1. Life expectancy dengan Schooling (0.75)**
+   - Ini menunjukkan bahwa semakin tinggi tingkat Schooling di suatu negara, semakin tinggi pula harapan hidup (Life expectancy). Pendidikan yang lebih baik biasanya berkorelasi dengan pengetahuan kesehatan yang lebih baik dan akses yang lebih baik ke layanan kesehatan.
+
+**2. Life expectancy dengan Income composition of resources (0.72)**
+   - Korelasi ini menunjukkan bahwa semakin tinggi kIncome composition of resources, semakin tinggi harapan hidup. Ini bisa berarti bahwa negara dengan sumber daya ekonomi yang lebih baik cenderung memiliki populasi yang lebih sehat dan umur yang lebih panjang.
+
+**3. Schooling dengan Income composition of resources (0.80)**
+   - Ini menunjukkan hubungan erat antara pendidikan dan komposisi pendapatan. Negara yang memiliki pendapatan sumber daya yang lebih tinggi cenderung juga memiliki sistem pendidikan yang lebih baik.
+
+**4. Thinness 1-19 years dengan Thinness 5-9 years (0.94)**
+   - Korelasi ini sangat kuat dan menunjukkan bahwa tingkat thinness pada anak-anak usia 1-19 tahun sangat berkaitan dengan tingkat kekurusan pada anak-anak usia 5-9 tahun.
+
+**5. BMI dengan Life expectancy (0.57)**
+   - Korelasi positif ini menunjukkan bahwa BMI yang lebih tinggi terkait dengan harapan hidup yang lebih tinggi. Namun, ini tidak berarti BMI yang lebih tinggi selalu baik, karena tergantung pada konteks kesehatan lainnya.
+
+### Korelasi Negatif Tinggi
+**1. Life expectancy dengan Adult Mortality (-0.70)**
+   - Korelasi negatif ini menunjukkan bahwa semakin tinggi angka kAdult Mortality, semakin rendah harapan hidup. Ini masuk akal karena kematian dewasa yang tinggi biasanya menurunkan rata-rata usia harapan hidup.
+
+**2. Life expectancy dengan HIV/AIDS (-0.56)**
+   - Tingginya prevalensi HIV/AIDS berkorelasi dengan harapan hidup yang lebih rendah, yang menunjukkan dampak buruk dari epidemi ini terhadap kesehatan masyarakat dan umur panjang.
+
+**3. Adult Mortality dengan Schooling (-0.45)**
+   - Korelasi ini menunjukkan bahwa tingkat pendidikan yang lebih tinggi berkaitan dengan tingkat kematian dewasa yang lebih rendah. Pendidikan dapat mempengaruhi kesadaran kesehatan, yang pada gilirannya mengurangi angka kematian.
+
+**4. Thinness 1-19 years dengan Life expectancy (-0.48)**
+   - Ini menunjukkan bahwa tingkat kekurusan pada anak-anak dan remaja berkorelasi negatif dengan harapan hidup. Kekurusan yang parah seringkali menunjukkan malnutrisi, yang bisa berdampak buruk pada umur panjang.
+
+**5. Thinness 5-9 years dengan Life expectancy (-0.47)**
+   - Sama seperti di atas, ini menunjukkan bahwa kekurusan pada usia dini berkaitan dengan harapan hidup yang lebih rendah.
+
+
+
